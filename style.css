@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero-section {
+    background-color: #f8f7f7;
+    padding: 40px 20px;
+    border-radius: 8px;
+  }
+  /* @media  screen and (max-width:764px) {
+       .first{
+        p{
+            text-align: center;
+        }
+        .buttons{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+       
+       }
+  } */
+
+  @media screen and (max-width:764px) {
+       .first{
+        p{
+            text-align: center;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+        }
+       }
+  }
+
+@media screen and (max-width:576px) {
+       .navbar-brand{
+        width: 100%;
+        text-align: center;
+       } 
+}
+
+
+
+
+
+
+
+
